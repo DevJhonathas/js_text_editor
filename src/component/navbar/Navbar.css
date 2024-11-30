@@ -1,24 +1,96 @@
-.title_navbar,
-.title_navbar h1{
+nav{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border: 0; margin: 0; padding: 0;
+    justify-content:flex-end;
+    flex-direction: row;
+    gap:32vw;
 }
 
-.title_navbar h1{
+/* title */
+.section_title_navbar,
+.section_title_navbar h1{
+    display: flex;
+    flex-direction: column;
+    border: 0; margin: 0; padding: 0;
+    text-align: center;
+    color: var(--text-color-black);
+}
+
+.section_title_navbar h1{
     font-size: 4em;
+    font-weight: bold;
     margin-top: 0.2em;
+    text-shadow: var(--commun-text-shadow-for-text);
 }
 
 .line{
     width: 0;
     height: 0;
+    box-shadow: var(--commun-box-shadow-for-tags);
 }
 
 .line_shape{
     border-bottom: 1.5em solid var(--line-color);
     border-right: 20em solid var(--line-color);
     border-radius: 50px;
+}
+
+/* settings */
+.section_buttons_and_setting{
+    display: flex;
+    align-items: center;
+}
+
+.circle_for_ico_settings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; margin: 0;
+}
+
+.circle_for_ico_settings_shape{
+    background-color: var(--line-color);
+    box-shadow: var(--commun-box-shadow-for-tags);
+    border-radius: 40%;
+    height: 6vh; width: 2.5vw;
+    padding: 0; margin: 0;
+    transition: ease-in-out .5s;
+    cursor: pointer;
+}
+
+.circle_for_ico_settings_shape:hover{
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 3px 3px hsl(0, 0%, 28%);
+}
+
+.img_settings_ico{
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0; margin: 0;
+}
+
+/*button home*/
+.section_home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    cursor: pointer;
+}
+
+.button_home_bar,
+.button_home_bar:visited,
+.button_home_bar:link{
+    text-shadow: var(--commun-text-shadow-for-text);
+    text-decoration: none;
+    color: var(--text-color-black);
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: ease-in-out .5s;
+
+}
+
+.button_home_bar:hover{
+    color: var(--button-navbar-home);
+    letter-spacing: .2px;
 }

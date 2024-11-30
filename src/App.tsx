@@ -10,7 +10,7 @@ function App() {
       <div id='container'>
         <Navbar/>
       </div>
-        <Router />
+      <Router />
       <Triangle/>
     </div>
   );

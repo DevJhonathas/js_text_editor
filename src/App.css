@@ -1,12 +1,18 @@
 :root{
+    /* app */
+    --commun-box-shadow-for-tags: 0px 3px 5px hsl(0, 1%, 55%); 
+    --commun-text-shadow-for-text: 0px 3px 3px hsl(0, 1%, 55%); 
+    
     /* body */
-    --bkg-color: #e4e4e4;
+    --bkg-color: hsl(0, 0%, 89%);
+    --text-color-black: hsl(0, 0%, 5%);
 
     /* triangulo_shape */
-    --triangle-color: #f7f7f7;
+    --triangle-color: hsl(0, 0%, 97%);
 
     /* navbar */
-    --line-color: #D9D9D9;
+    --line-color: hsl(0, 0%, 85%);
+    --button-navbar-home: hsl(0, 0%, 43%);
 }
 
 body{
