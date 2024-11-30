@@ -1,0 +1,22 @@
+:root{
+    /* body */
+    --bkg-color: #e4e4e4;
+
+    /* triangulo_shape */
+    --triangle-color: #f7f7f7;
+
+    /* navbar */
+    --line-color: #D9D9D9;
+}
+
+body{
+    background-color: var(--bkg-color);
+    font-family:'Roboto', sans-serif;
+}
+
+#container{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 1; /*Faz com que mesmo que o triangle seja absolute, ainda mostre todos os container primeiro.*/
+    position: relative;
+}

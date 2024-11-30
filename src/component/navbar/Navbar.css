@@ -1,0 +1,24 @@
+.title_navbar,
+.title_navbar h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 0; margin: 0; padding: 0;
+}
+
+.title_navbar h1{
+    font-size: 4em;
+    margin-top: 0.2em;
+}
+
+.line{
+    width: 0;
+    height: 0;
+}
+
+.line_shape{
+    border-bottom: 1.5em solid var(--line-color);
+    border-right: 20em solid var(--line-color);
+    border-radius: 50px;
+}

@@ -1,0 +1,23 @@
+.center_triangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle:last-child{
+    position: fixed;
+    box-shadow: inset 0px 0px 200px 525px;
+}
+
+.triangle_shape{
+    width: 0;
+    height: 0;
+    margin-top: 40em;
+    border-left: 60em solid transparent;
+    border-right: 60em solid transparent;
+    border-bottom: 80em solid var(--triangle-color);
+}
+
+.triangle_blur{
+    filter: blur(6em);
+}

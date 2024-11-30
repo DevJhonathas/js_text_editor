@@ -1,11 +1,11 @@
-import { memo } from "react";
+import React from "react";
 
 const NotFound = () => {
     return (
-        <div>
+        <main id='container'>
             <h1>Page Not Found - Error 404</h1>
-        </div>
+        </main>
     )
 }
 
-export default memo(NotFound);
+export default NotFound;

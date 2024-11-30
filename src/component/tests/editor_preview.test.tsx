@@ -4,12 +4,10 @@ interface Props {
     
 }
 
-const routes = (props: Props) => {
+const editor_preview = (props: Props) => {
     return (
         <div>
             
         </div>
     )
 }
-
-export default routes
